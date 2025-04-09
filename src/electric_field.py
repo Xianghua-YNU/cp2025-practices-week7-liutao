@@ -1,3 +1,4 @@
+
 """
 电偶极子电势与电场计算与可视化模板
 
@@ -78,8 +79,8 @@ def main():
     plt.streamplot(X, Y, Ex, Ey, color='black', linewidth=1, density=1.5, arrowsize=1)
     
     # 标记电荷位置
-    plt.scatter(*pos_charge_pos, c='red', s=100, label=f'正电荷 +{q_pos:.1e}C')
-    plt.scatter(*neg_charge_pos, c='blue', s=100, label=f'负电荷 {q_neg:.1e}C')
+    plt.scatter(*pos_charge_pos, c='red', s=100, label=f'P  +{q_pos:.1e}C')
+    plt.scatter(*neg_charge_pos, c='blue', s=100, label=f'N  {q_neg:.1e}C')
     
     # 添加图表元素
     plt.title('The potential distribution of an electric dipole and the electric field lines')
