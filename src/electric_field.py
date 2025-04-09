@@ -82,7 +82,7 @@ def main():
     plt.scatter(*neg_charge_pos, c='blue', s=100, label=f'负电荷 {q_neg:.1e}C')
     
     # 添加图表元素
-    plt.title('电偶极子的电势分布与电场线')
+    plt.title('The potential distribution of an electric dipole and the electric field lines')
     plt.xlabel('x (m)')
     plt.ylabel('y (m)')
     plt.legend()
