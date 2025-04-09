@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def load_stress_fibers():
     """加载应力纤维数据"""
-    return np.loadtxt('date/stressFibers.txt')
+    return np.loadtxt('data/stressFibers.txt')
 
 def create_gauss_filter():
     """创建高斯滤波器"""
